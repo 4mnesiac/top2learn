@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Heading tag="h1">Заголовок 1</Heading>
       <Button>Кнопа</Button>
-      <Button apperance="ghost">Кнопа 2</Button>
+      <Button apperance="ghost" arrow='right'>Кнопа 2</Button>
     </>
-  )
+  );
 }
