@@ -3,7 +3,7 @@
  */
 const nextConfig = {
   images: {
-    domains: ['courses-top.ru'],
+    domains: ['top2learn.ru'],
   },
   webpack(config, options) {
     config.module.rules.push({

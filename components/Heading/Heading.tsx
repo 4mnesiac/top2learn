@@ -12,6 +12,6 @@ export const Heading: FunctionComponent<HeadingProps> = ({tag, children}): JSX.E
         case 'h3':
             return <h3 className={style.h3}>{children}</h3>;
         default:
-            return <></>
+            return <></>;
     }
-}
+};
