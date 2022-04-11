@@ -2,7 +2,8 @@
 	display: inline-block;
 
 	box-sizing: border-box;
-	padding: 10px;
+	min-width: 65px;
+	padding: 8px 10px;
 
 	cursor: pointer;
 
@@ -22,6 +23,7 @@
 }
 
 .primary:hover {
+	border-color: var(--primary-hover);
 	background-color: var(--primary-hover);
 }
 

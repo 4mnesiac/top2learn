@@ -1,16 +1,21 @@
-import { Button, Heading, Label } from "../components";
+import { Button, Heading, Chip, Typography } from "../components";
 
 
 export default function Home() {
 	return (
 		<>
-			<Heading tag="h1">Заголовок 1</Heading>
+			<Heading tag="h1">Наш UI самый лучший</Heading>
 			<Button>Кнопа</Button>
 			<Button apperance="ghost" arrow='right'>Кнопа 2</Button>
-			<Label colorScheme='primary'>Photoshop</Label>
-			<Label>Figma</Label>
-			<Label colorScheme="discount">Discount</Label>
-			<Label colorScheme="chip">Chip</Label>
+			<Chip color='primary'>Photoshop</Chip>
+			<Chip>Figma</Chip>
+			<Chip color="ghost" size='m'>Ghost</Chip>
+			<Chip color="error">Error</Chip>
+			<Chip color="success" size='m'>Success</Chip>
+			<Typography size='m'>Студенты освоят не только hard skills,
+				необходимые для работы веб-дизайнером, но и soft skills — навыки,
+				которые позволят эффективно взаимодействовать в команде с менеджерами, разработчиками и маркетологами.
+				Выпускники факультета могут успешно конкурировать с веб-дизайнерами уровня middle.</Typography>
 		</>
 	);
 }
